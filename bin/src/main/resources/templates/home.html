@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>HELLO</p>
+	<div>
+
+		<div sec:authorize="hasRole('USER')">Text visible to user.</div>
+		<div sec:authentication="principal.username"></div>
+		<div sec:authentication="principal.fullName"></div>
+
+	</div>
+</body>
+</html>

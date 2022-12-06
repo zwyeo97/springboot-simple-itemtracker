@@ -1,0 +1,7 @@
+com.fdmgroup.ItemsTracker
+com.fdmgroup.ItemsTracker.controller
+com.fdmgroup.ItemsTracker.model
+com.fdmgroup.ItemsTracker.repo
+com.fdmgroup.ItemsTracker.repositories
+com.fdmgroup.ItemsTracker.security
+com.fdmgroup.ItemsTracker.service
